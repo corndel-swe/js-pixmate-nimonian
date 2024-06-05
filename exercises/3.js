@@ -1,3 +1,5 @@
+// https://tech-docs.corndel.com/js/nested-loops.html
+
 /**
  * Given a grid of numbers (an array of arrays),
  * count how many are larger than 10.
@@ -14,5 +16,13 @@
  * @returns {number} The count of numbers larger than 10
  */
 export function gridLimit(grid) {
-  // TODO
+  let result = 0
+
+  for (let row of grid) {
+    for (let num of row) {
+      result += num > 10
+    }
+  }
+
+  return result
 }

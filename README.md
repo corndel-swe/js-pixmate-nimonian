@@ -22,22 +22,49 @@ concept: loops.
 
 ## Getting started
 
-1. Make sure you have node, npm and git installed.
+1. Make sure your machine is set up according to the instructions with
 
-1. Clone the repo so you have it locally.
+   - [bash](https://tech-docs.corndel.com/bash/)
+   - [vscode](https://tech-docs.corndel.com/vscode/)
+   - [git](https://tech-docs.corndel.com/git/)
+   - [node & npm](https://tech-docs.corndel.com/js/installation.html)
 
-1. Run `npm install` to install the dependencies.
+1. Clone the repository (i.e. download it), so you have a copy on your machine.
 
-With all this done, you're ready for the deep dive!
+1. Once cloned, open a terminal in the project folder, and run
+
+   ```bash
+   npm install
+   ```
+
+   to install dependencies.
+
+## Running tests
+
+You can test exercises individually using commands like
+
+```bash
+npm run test:1a
+```
+
+or you can run all tests at once using
+
+```bash
+npm run test
+```
 
 ## Deep dive
 
+Before working on PixMate, there are a few things we need to learn. There are
+some documentation pages which will teach you what you need to know, and some
+exercises for you to practice your skills.
+
 ```mermaid
 flowchart TD
-    A[fa:fa-book Read doc page]
-    B[fa:fa-pencil Attempt exercises]
-    C[fa:fa-check Run tests]
-    D[fa:fa-save Commit & push]
+    A[Read doc page]
+    B[Attempt exercises]
+    C[Run tests]
+    D[Commit & push]
 
     A --> B
     B --> C
@@ -45,12 +72,11 @@ flowchart TD
     D --> A
 ```
 
-To draw our pixel art, we'll be using lots of loops! Today's deep dive is all
-about loops, so let's get into it.
-
 ### Basic loops
 
-1. Read the docs on [basic loops]().
+1. Read the docs on
+   [while loops](https://tech-docs.corndel.com/js/while-loops.html) and
+   [for loops](https://tech-docs.corndel.com/js/for-loops.html).
 
 1. Complete Exercise 1a:
 
@@ -61,21 +87,26 @@ about loops, so let's get into it.
    - Once you pass the tests, type `git commit -am "Solves 1a"` in the terminal
      and hit enter to commit your solution.
 
-   - Now type `git push` to sync your changes to github.
+   - Now run `git push` to sync your changes to github.
 
-1. Do the same for Exercise 1b.
+1. Read the docs on
+   [for of loops](https://tech-docs.corndel.com/js/for-of-loops.html).
+
+1. Solve, commit and push Exercise 1b.
 
 ### Loop control flow
 
-1. Read the docs on [control flow]().
+1. Read the docs on
+   [control flow](https://tech-docs.corndel.com/js/loop-control-flow.html).
 
 1. Solve, commit and push Exercise 2a.
 
 1. Solve, commit and push Exercise 2b.
 
-### Applied iteration
+### Nested loops
 
-1. Read the docs on [applied iteration]().
+1. Read the docs on
+   [applied iteration](https://tech-docs.corndel.com/js/nested-loops.html).
 
 1. Solve, commit and push Exercise 3.
 
