@@ -1,3 +1,5 @@
+// https://tech-docs.corndel.com/js/loop-control-flow.html
+
 /**
  * Finds the index of the first element in an array that is smaller than the element before it.
  *

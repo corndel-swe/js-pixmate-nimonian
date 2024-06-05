@@ -1,3 +1,5 @@
+// https://tech-docs.corndel.com/js/loop-control-flow.html
+
 /**
  * Calculates the sum of numbers in an array that are either even or greater than 10,
  * but skips numbers that are both.

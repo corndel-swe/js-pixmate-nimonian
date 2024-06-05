@@ -1,3 +1,5 @@
+// https://tech-docs.corndel.com/js/for-of-loops.html
+
 /**
  * Adds together all the numbers in the array
  *
