@@ -12,5 +12,21 @@
  * @returns {number} The sum of numbers that meet the criteria.
  */
 export function sumSelective(numbers) {
-  // TODO
+  let i = 0
+  let result = 0
+
+  while (i < numbers.length) {
+    const num = numbers[i]
+    i++
+
+    if (num % 2 === 0 && num > 10) {
+      continue
+    }
+
+    if (num % 2 === 0 || num > 10) {
+      result += num
+    }
+  }
+
+  return result
 }
