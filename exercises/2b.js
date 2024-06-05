@@ -16,5 +16,20 @@
  *                   Returns -1 if no such element is found or if the array is empty.
  */
 export function stepDown(numbers) {
-  // TODO
+  let i = 1
+  let result = -1
+
+  while (i < numbers.length) {
+    const a = numbers[i - 1]
+    const b = numbers[i]
+
+    if (b < a) {
+      result = i
+      break
+    }
+
+    i++
+  }
+
+  return result
 }
